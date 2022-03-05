@@ -12,7 +12,7 @@ public class Home {
 
     }
 
-    public Home(int id, String salutatoryOration, String meInfoOne, String meInfoTwo, String meInfo) {
+    public Home(Integer id, String salutatoryOration, String meInfoOne, String meInfoTwo, String meInfo) {
         this.id = id;
         this.salutatoryOration = salutatoryOration;
         this.meInfoOne = meInfoOne;
@@ -20,11 +20,11 @@ public class Home {
         this.meInfo = meInfo;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

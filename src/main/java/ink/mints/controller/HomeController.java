@@ -31,7 +31,7 @@ public class HomeController {
 
     @PutMapping
     public boolean updateHome(@RequestBody Home home){
-        return homeService.update(home,null);
+        return homeService.updateById(home);
     }
 
     @DeleteMapping("{id}")
