@@ -8,6 +8,8 @@ public class MintsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MintsApplication.class, args);
+
+
     }
 
 }
