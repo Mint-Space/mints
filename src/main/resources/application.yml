@@ -1,0 +1,21 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+
+# 数据库驱动：
+spring:
+  # 应用名称
+  application:
+    name: mints
+
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      # 数据源名称
+      name: defaultDataSource
+      # 数据库连接地址
+      url: jdbc:mysql://localhost:3306/caprice-ink?serverTimezone=UTC
+      # 数据库用户名&密码：
+      username: root
+      password: Guthrie5
+
