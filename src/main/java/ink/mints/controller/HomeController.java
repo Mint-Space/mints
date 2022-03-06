@@ -58,7 +58,7 @@ public class HomeController {
         if(flag){
             return new Result(200,flag, Status.SUCCESS,Message.Success());
         }else {
-            return new Result(400,flag, Status.FAILED,Message.Failed());
+            return new Result(400,null, Status.FAILED,Message.Failed());
         }
     }
 
