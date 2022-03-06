@@ -14,7 +14,7 @@ spring:
       # 数据源名称
       name: defaultDataSource
       # 数据库连接地址
-      url: jdbc:mysql://localhost:3306/caprice-ink?serverTimezone=UTC
+      url: jdbc:mysql://127.0.0.1:3306/caprice_ink?serverTimezone=UTC
       # 数据库用户名&密码：
       username: root
       password: Guthrie5
